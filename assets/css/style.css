@@ -39,11 +39,13 @@ h1 {
     font-weight: 700;
     font-family: var(--fuente);
     font-size: 2.2rem;
+    color: var(--principal);
 }
 p {
     font-weight: 400;
     font-family: var(--fuente);
     font-size: 1.5rem; 
+    color: var(--secundario);
 }
 img {
     max-width: 100%;
@@ -76,5 +78,4 @@ img {
 .qr_fondo img {
     width: 28rem;
     height: 28rem;
-    
 }

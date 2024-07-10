@@ -17,6 +17,13 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
 *,
 *::before,
 *::after {
@@ -26,17 +33,16 @@ body {
     font-family: var(--fuente);
     font-size: 1.6rem;
     line-height: 1.5;
+    background-color: var(--backgroundFondo);
 }
 h1 {
     font-weight: 700;
     font-family: var(--fuente);
-    margin: calc(var(--separacion) / 2);
     font-size: 2.2rem;
 }
 p {
     font-weight: 400;
     font-family: var(--fuente);
-    margin: calc(var(--separacion) / 2);
     font-size: 1.5rem; 
 }
 img {
@@ -50,7 +56,13 @@ img {
     text-align: center;
 }
 
-/*-------------- Fondo -------------------------------------*/
-.card_fondo {
-    background-color: var(--backgroundFondo);
+/*-------------- Fondo -------------------------------------*/  
+.card {
+    width: 32rem;
+    height: 50rem;
+    border-radius: 2rem;
+    background-color: var(--backgroundCard);
+    -webkit-box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.0477);
+    -moz-box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.0477);
+    box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.0477);
 }

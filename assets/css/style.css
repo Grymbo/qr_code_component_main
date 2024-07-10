@@ -3,5 +3,11 @@
     --fuente: "Outfit", sans-serif;
 
     /*------- Colores ------------*/
-    
+    --principal: #1F314F;
+    --secundario: #7D889E;
+    --backgroundCard: #FFFFFF;
+    --backgroundFondo: #D5E1EF;
+
+    /*------- Separacion -------*/
+    --separacion: 5rem;
 }

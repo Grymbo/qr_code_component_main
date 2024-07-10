@@ -49,3 +49,8 @@ img {
 .text_center {
     text-align: center;
 }
+
+/*-------------- Fondo -------------------------------------*/
+.card_fondo {
+    background-color: var(--backgroundFondo);
+}

@@ -49,6 +49,7 @@ img {
     max-width: 100%;
     display: block;
     height: auto;
+    border-radius: 1.5rem;
 }
 
 /*----------------------------- Utilidades -------------------------------*/
@@ -75,4 +76,5 @@ img {
 .qr_fondo img {
     width: 28rem;
     height: 28rem;
+    
 }

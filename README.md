@@ -13,10 +13,10 @@ Realize este reto de Front-End Mentor, el cual consiste en una tarjeta que conti
 -700
 
 ##Colores
---principal: #1F314F;
---secundario: #7D889E;
---backgroundCard: #FFFFFF;
---backgroundFondo: #D5E1EF;
+    --principal: #1F314F;
+    --secundario: #7D889E;
+    --backgroundCard: #FFFFFF;
+    --backgroundFondo: #D5E1EF;
 
 ##Imagenes
 ![QrCode](assets/images/image-qr-code.png)
